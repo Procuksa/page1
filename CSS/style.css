@@ -1,0 +1,171 @@
+body{background-color: black;}
+header img{width: 1120px;height: 450px;
+border-radius: 30px;
+ }
+
+    p{text-align: center;}
+    h1{text-align:center;
+        font-family:Impact;
+        font-size: 60px;
+    color: white;}
+
+    h2{text-align:center;
+    font-family:Impact;
+    font-size: 60px;
+color: white;}
+    
+    
+    
+    h3{text-align:center;
+    font-family:Impact;
+    font-size: 40px;color: white}
+    
+    
+    nav a{position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding:15px;
+    width: 100px;
+    text-decoration: none;
+    font-size:20px;
+    color:white;
+    border-radius: 0 5px 5px 0;}
+    nav a:hover{left:0;
+    }
+    
+    
+    .about{
+    top: 810px;
+    background-color: #D2D2D4;
+    border: 3px solid #707375;
+    font-size: 16px;
+    font-family: Impact; 
+    }
+    .blog{top:892px;
+    background-color: #6B99C3;
+    border: 3px solid #16354D;
+    font-size: 20px;
+    font-family: Impact; 
+    }
+    .projects{top:960px;
+    background-color: #16354D;
+    border: 3px solid #6B99C3;
+    font-family: Impact; 
+    }
+    .contact{top:1030px;
+    background-color: #0C151C;
+    font-size: 13px;
+    border: 3px solid #D2D2D4;
+    font-family: Impact; 
+    }
+    
+   div{color:#0690DE;
+    font-size: 36px;font-family: Impact;background-color: #D2D2D4;border-radius: 25px;margin: auto;width: 600px;padding: 20px;}
+
+
+
+    .image-1 {
+        position: absolute;
+        top: 1200px;
+        left: 170px;
+        z-index: 0;
+        opacity: 0.8;
+        
+
+    }
+    
+    .image-2 {
+        position: absolute;
+        top: 1300px;
+        left: 190px;
+        z-index: 0;
+        opacity: 0.8;
+    }
+    .image-3 {
+        position: absolute;
+        top: 1400px;
+        left: 210px;
+        z-index: 0;
+        opacity: 0.8;
+    }
+    .image-4 {
+        position: absolute;
+        top: 1500px;
+        left: 230px;
+        z-index: 0;
+        opacity: 0.8;
+    }
+    
+    
+    
+    .image-1:hover{z-index: 1;
+    opacity: 1;
+    height: 350px;
+    width: 700px;
+    transition: 3s}
+    
+    
+    .image-2:hover{z-index: 1;
+    opacity: 1;
+    height: 350px;
+    width: 700px;
+    transition: 3s}
+
+    .image-3:hover{z-index: 1;
+        opacity: 1;
+        height: 350px;
+        width: 700px;
+        transition: 3s}
+
+
+        .image-4:hover{z-index: 1;
+            opacity: 1;
+            height: 350px;
+            width: 700px;
+            transition: 3s}
+
+    .foot{
+        position: absolute;
+        top: 1900px;
+        background-color: #0C151C;
+        width: 1400px;
+        height: 200px;
+        padding: 15px;
+        border-radius: 25px;
+    }
+footer p{
+        position: absolute;
+        top: 130px;
+        color: white;
+    }
+footer a{color:white;
+text-decoration:none;
+position: absolute;
+        top: 180px;
+        left: 540px;
+        display: inline;
+
+
+}
+
+footer a:hover{color:rgb(91, 91, 245);
+    text-decoration:none;
+    position: absolute;
+            top: 180px;
+            left: 540px;
+            display: inline;
+            transition: 1s;
+    
+    
+    }
+    
+
+
+
+
+
+
+main img{border-radius: 25px;}
+footer p::before{content:url("https://i.postimg.cc/gJ3xp7jM/icons8-discord-50-1.png");
+    margin: 20px;
+   }
